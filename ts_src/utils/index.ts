@@ -1,4 +1,4 @@
-import { Psbt } from "belcoinjs-lib";
+import { Psbt } from "bitcoinjs-lib";
 import type { SignedPsbtBase64, SignedTxHex } from "../types";
 
 export interface INintondoUtilities {

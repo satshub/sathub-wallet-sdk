@@ -114,7 +114,7 @@ export interface INintondoProvider {
   /**
    * To get the currently selected network of the Nintondo wallet.
    *
-   * @returns The Network from belcoinjs-lib
+   * @returns The Network from bitcoinjs-lib
    */
   getNetwork(): Promise<NetworkType>;
 
