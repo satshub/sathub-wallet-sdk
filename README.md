@@ -1,15 +1,15 @@
-# nintondo-sdk
+# sathub-wallet-sdk
 
 Installation:
 
 ```bash
-npm i nintondo-sdk
+npm i sathub-wallet-sdk
 ```
 
 Usage (manual method):
 
 ```typescript
-import { initNintondo } from "nintondo-sdk";
+import { initNintondo } from "sathub-wallet-sdk";
 
 // It will return Nintondo instance if extension is already injected to the website
 const nintondo: Nintondo | undefined = initNintondo();
@@ -18,7 +18,7 @@ const nintondo: Nintondo | undefined = initNintondo();
 Using React.Context (for React\Next.JS projects):
 
 ```typescript
-import { useNintondo, NintondoProvider } from "nintondo-sdk/react";
+import { useNintondo, NintondoProvider } from "sathub-wallet-sdk/react";
 
 const Layout = () => {
   return (

@@ -1,6 +1,6 @@
 {
   "name": "sathub-wallet-sdk",
-  "version": "0.1.15",
+  "version": "0.0.1",
   "description": "Sathub-Wallet Provider SDK",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
